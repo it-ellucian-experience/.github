@@ -21,8 +21,11 @@ Be sure you have access to the correct Github. All extensions developed by SHSU 
 *All instructions here assume you are using Windows 11 and VS Code*
 
 1.   Create extension project in local development environment.
-  -   https://resources.elluciancloud.com/bundle/ellucian_experience/page/t_create_extension.html
-2. 
+  1.   https://resources.elluciancloud.com/bundle/ellucian_experience/page/t_create_extension.html
+  2.   Clear the cache by entering the following command: npx clear-npx-cache
+Cached commands can sometimes cause an extension to be incorrectly created with a previous version of the SDK. Clearing the cache ensures that the extension is created with the latest SDK version.
+
+Enter npx -p https://cdn.elluciancloud.com/assets/SDK/latest/ellucian-create-experience-extension-latest.tgz create-experience-extension your_extension_name, replacing your_extension_name with the desired name of the extension.
 
 ### Sync with Github
 1. Create project in Github
